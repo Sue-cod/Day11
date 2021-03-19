@@ -1,15 +1,16 @@
 // Only change code below this line
 var testArr = ['hello', 'hey'];
-var testArr1 = ['zyxwvutsrqponmlkjihgfedcba', 'qrstu'];
-var testArr2 = ['Mary', 'Army'];
-var testArr3 = ['Mary', 'Aarmy'];
-var testArr4 = ['Alien', 'line'];
-var testArr5 = ['floor', 'for'];
-var testArr6 = ['Hello', 'neo'];
-var testArr7 = ['voodoo', 'no'];
-var testArr8 = ['ate', 'date'];
-var testArr9 = ['Tiger', 'Zebra'];
-var testArr10 = ['Noel', 'Ole'];
+var testArr1 = ["hello", "Hello"];
+var testArr2 = ['zyxwvutsrqponmlkjihgfedcba', 'qrstu'];
+var testArr3 = ['Mary', 'Army'];
+var testArr4 = ['Mary', 'Aarmy'];
+var testArr5 = ['Alien', 'line'];
+var testArr6 = ['floor', 'for'];
+var testArr7 = ['Hello', 'neo'];
+var testArr8 = ['voodoo', 'no'];
+var testArr9 = ['ate', 'date'];
+var testArr10 = ['Tiger', 'Zebra'];
+var testArr11 = ['Noel', 'Ole'];
 
 
 function myMutation(arr) {
@@ -31,5 +32,6 @@ console.log(myMutation(testArr6));
 console.log(myMutation(testArr7));
 console.log(myMutation(testArr8));
 console.log(myMutation(testArr9));
+console.log(myMutation(testArr10));
 console.log(myMutation(testArr10)); // Change this line
 module.exports = myMutation;
